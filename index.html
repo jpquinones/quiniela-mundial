@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Quiniela Mundial 2026</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+<style>
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    background: #0b1c3d;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 12px;
+    padding: 16px;
+    color: white;
+}
+
+.header img {
+    width: 80px;
+    flex-shrink: 0;
+}
+
+.header-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.price {
+    margin-top: 4px;
+    background: #00c2ff;
+    color: white;
+    padding: 4px 10px;
+    border-radius: 12px;
+    font-size: 13px;
+    font-weight: 500;
+    width: fit-content;
+}
+
+#total {
+    margin-top: 8px;
+    color: #00ffae;
+    font-weight: 500;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+    gap: 14px;
+    padding: 14px;
+}
+
+.group {
+    background: linear-gradient(145deg, #ffffff, #f0f3f8);
+    border-radius: 14px;
+    padding: 12px;
+    box-shadow: 0 6px 16px rgba(0,0,0,0.25);
+    border-top: 4px solid #00c2ff;
+}
+
+.group h3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 0 10px 0;
+    font-size: 15px;
+}
+
+.group-name {
+    font-weight: 700;
+    color: #0b1c3d;
+}
+
+.person-name {
+    font-weight: 500;
+    color: #555;
+    background: #eef3ff;
+    padding: 2px 8px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.paid {
+    color: green;
+    font-weight: bold;
+}
+
+.team {
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    padding: 6px 4px;
+    border-bottom: 1px solid #e6e6e6;
+    gap: 8px;
+}
+
+.team:last-child {
+    border-bottom: none;
+}
+
+.flag {
+    font-size: 18px;
+}
+
+.team-name {
+    font-weight: 500;
+}
+
+</style>
+</head>
+
+<body>
+
+  <div class="header">
+      <img src="2026_FIFA_World_Cup_emblem.svg" alt="Logo Mundial 2026">
+
+      <div class="header-text">
+          <h1>QUINIELA MUNDIAL 2026</h1>
+          <div class="price">$400 por participante</div>
+      </div>
+  </div>
+
+<div class="grid">
+
+<!-- A -->
+<div class="group">
+<h3><span class="group-name">GRUPO A</span><span class="person-name">Arturo</span></h3>
+<div class="team">🇲🇽 México</div>
+<div class="team">🇿🇦 Sudáfrica</div>
+<div class="team">🇰🇷 Corea del Sur</div>
+<div class="team">🇨🇿 República Checa</div>
+</div>
+
+<!-- B -->
+<div class="group">
+<h3><span class="group-name">GRUPO B</span><span class="person-name">Vaca</span></h3>
+<div class="team">🇨🇦 Canadá</div>
+<div class="team">🇧🇦 Bosnia y Herzegovina</div>
+<div class="team">🇶🇦 Qatar</div>
+<div class="team">🇨🇭 Suiza</div>
+</div>
+
+<!-- C -->
+<div class="group">
+<h3><span class="group-name">GRUPO C</span><span class="person-name">Beto <span class="paid">✔</span></span></h3>
+<div class="team">🇧🇷 Brasil</div>
+<div class="team">🇲🇦 Marruecos</div>
+<div class="team">🇭🇹 Haití</div>
+<div class="team">🏴 Escocia</div>
+</div>
+
+<!-- D -->
+<div class="group">
+<h3><span class="group-name">GRUPO D</span><span class="person-name">Yeye</span></h3>
+<div class="team">🇺🇸 Estados Unidos</div>
+<div class="team">🇵🇾 Paraguay</div>
+<div class="team">🇦🇺 Australia</div>
+<div class="team">🇹🇷 Turquía</div>
+</div>
+
+<!-- E -->
+<div class="group">
+<h3><span class="group-name">GRUPO E</span><span class="person-name">Tortuga</span></h3>
+<div class="team">🇩🇪 Alemania</div>
+<div class="team">🇨🇼 Curazao</div>
+<div class="team">🇨🇮 Costa de Marfil</div>
+<div class="team">🇪🇨 Ecuador</div>
+</div>
+
+<!-- F -->
+<div class="group">
+<h3><span class="group-name">GRUPO F</span><span class="person-name">Sebas <span class="paid">✔</span></span></h3>
+<div class="team">🇳🇱 Países Bajos</div>
+<div class="team">🇯🇵 Japón</div>
+<div class="team">🇸🇪 Suecia</div>
+<div class="team">🇹🇳 Túnez</div>
+</div>
+
+<!-- G -->
+<div class="group">
+<h3><span class="group-name">GRUPO G</span><span class="person-name">Titus</span></h3>
+<div class="team">🇧🇪 Bélgica</div>
+<div class="team">🇪🇬 Egipto</div>
+<div class="team">🇮🇷 Irán</div>
+<div class="team">🇳🇿 Nueva Zelanda</div>
+</div>
+
+<!-- H -->
+<div class="group">
+<h3><span class="group-name">GRUPO H</span><span class="person-name">Gera</span></h3>
+<div class="team">🇪🇸 España</div>
+<div class="team">🇨🇻 Cabo Verde</div>
+<div class="team">🇸🇦 Arabia Saudita</div>
+<div class="team">🇺🇾 Uruguay</div>
+</div>
+
+<!-- I -->
+<div class="group">
+<h3><span class="group-name">GRUPO I</span><span class="person-name">Aarón <span class="paid">✔</span></span></h3>
+<div class="team">🇫🇷 Francia</div>
+<div class="team">🇸🇳 Senegal</div>
+<div class="team">🇮🇶 Irak</div>
+<div class="team">🇳🇴 Noruega</div>
+</div>
+
+<!-- J -->
+<div class="group">
+<h3><span class="group-name">GRUPO J</span><span class="person-name">Güero</span></h3>
+<div class="team">🇦🇷 Argentina</div>
+<div class="team">🇩🇿 Argelia</div>
+<div class="team">🇦🇹 Austria</div>
+<div class="team">🇯🇴 Jordania</div>
+</div>
+
+<!-- K -->
+<div class="group">
+<h3><span class="group-name">GRUPO K</span><span class="person-name">Gato</span></h3>
+<div class="team">🇵🇹 Portugal</div>
+<div class="team">🇨🇩 RD del Congo</div>
+<div class="team">🇺🇿 Uzbekistán</div>
+<div class="team">🇨🇴 Colombia</div>
+</div>
+
+<!-- L -->
+<div class="group">
+<h3><span class="group-name">GRUPO L</span><span class="person-name">Pedro <span class="paid">✔</span></span></h3>
+<div class="team">🇬🇧 Inglaterra</div>
+<div class="team">🇭🇷 Croacia</div>
+<div class="team">🇬🇭 Ghana</div>
+<div class="team">🇵🇦 Panamá</div>
+</div>
+
+</div>
+
+<script>
+const costoPorPersona = 100;
+
+const pagados = document.querySelectorAll('.paid').length;
+const total = pagados * costoPorPersona;
+
+document.getElementById('total').textContent =
+    `Acumulado: $${total} (${pagados} pagados)`;
+</script>
+
+</body>
+</html>
