@@ -121,19 +121,70 @@ body {
     font-weight: 500;
 }
 
+.prize-container {
+    display: flex;
+    gap: 6px;
+    margin-top: 6px;
+    flex-wrap: wrap;
+}
+
+.prize {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+
+    padding: 4px 8px;
+    border-radius: 14px;
+
+    font-size: 13px;
+    font-weight: 600;
+
+    background: rgba(255,255,255,0.12);
+    color: white;
+    line-height: 1;
+}
+
+.gold {
+    border: 1px solid #FFD700;
+}
+
+.silver {
+    border: 1px solid #C0C0C0;
+}
+
+.bronze {
+    border: 1px solid #CD7F32;
+}
+
 </style>
 </head>
 
 <body>
 
   <div class="header">
-      <img src="2026_FIFA_World_Cup_emblem.svg" alt="Logo Mundial 2026">
+    <img src="2026_FIFA_World_Cup_emblem.svg" alt="Logo Mundial 2026">
 
-      <div class="header-text">
-          <h1>QUINIELA MUNDIAL 2026</h1>
-          <div class="price">$400 por participante</div>
-      </div>
-  </div>
+    <div class="header-text">
+        <h1>QUINIELA MUNDIAL 2026</h1>
+
+        <div class="prize-container">
+            <div class="prize gold">
+                <span>🥇</span>
+                <strong>$3,400</strong>
+            </div>
+
+            <div class="prize silver">
+                <span>🥈</span>
+                <strong>$1,000</strong>
+            </div>
+
+            <div class="prize bronze">
+                <span>🥉</span>
+                <strong>$400</strong>
+            </div>
+        </div>
+    </div>
+</div>
 
 <div class="grid">
 
