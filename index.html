@@ -165,6 +165,28 @@ body {
     border: 1px solid #CD7F32;
 }
 
+.group.out {
+    opacity: 0.55;
+    filter: grayscale(0.8);
+    position: relative;
+}
+
+.group.out::after {
+    content: "ELIMINADO";
+    position: absolute;
+    top: 63%;
+    right: 0px;
+    transform: rotate(-35deg);
+
+    background: #d62828;
+    color: white;
+
+    padding: 4px 40px;
+    font-size: 11px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
 </style>
 </head>
 
@@ -243,10 +265,10 @@ body {
 </div>
 
 <!-- F -->
-<div class="group">
+<div class="group out">
 <h3><span class="group-name">GRUPO F</span><span class="person-name">Sebas</span></h3>
-<div class="team">🇸🇪 Suecia</div>
-<div class="team eliminated">🇳🇱 Países Bajos</div>    
+<div class="team eliminated">🇸🇪 Suecia</div>
+<div class="team eliminated">🇳🇱 Países Bajos</div>
 <div class="team eliminated">🇯🇵 Japón</div>
 <div class="team eliminated">🇹🇳 Túnez</div>
 </div>
